@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the number</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body >
+    <button class="btn refresh"><i class='bx bx-refresh'></i></button>
+    <h2 id="name">Welcome </h2>
+    <h1 class="title"> Guess the correct number behind the Monkey <span class="monkey">🙈</span>, is't between 1 to 20 !</h1>
+    <div class="mar">
+        <div class="line"></div>
+        <p class="mark">🙈</p>
+        <div class="line"></div>
+    </div>
+    <div class="body">
+        <div class="input">
+            <input type="number" placeholder="Enter here" class="ip">
+            <br>
+            <button class="btn submit">Check</button>
+        </div>
+        <div class="output">
+            <span class="inform">🧑‍💻Guess the number</span>
+            <p>🎯 Score : <span class="score">10</span></p>
+            <p>🥇 High Score : <span class="final">0</span></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
