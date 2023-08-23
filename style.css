@@ -90,7 +90,7 @@ input {
     }
     .body{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .output{
         width: 100%;
