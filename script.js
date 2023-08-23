@@ -39,6 +39,7 @@ document.querySelector('.submit').addEventListener('click', function () {
             score--;
             document.querySelector(".score").textContent = score;
         } else {
+            alert("😟 lost the game ");
             document.querySelector(".inform").textContent = `😟 lost the game `;
             document.querySelector(".score").textContent = 0;
         }
@@ -48,6 +49,7 @@ document.querySelector('.submit').addEventListener('click', function () {
             score--;
             document.querySelector(".score").textContent = score;
         } else {
+            alert("😟 lost the game ");
             document.querySelector(".inform").textContent = `😟 lost the game `;
             document.querySelector(".score").textContent = 0;
         }
