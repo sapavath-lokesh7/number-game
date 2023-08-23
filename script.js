@@ -2,7 +2,7 @@
 
 var nameOfTheUser = prompt("Eneter you name");
 document.getElementById('name').textContent = `welcome ${nameOfTheUser} !`;
-let x = Math.floor((Math.random() * 20) + 1);
+let x = Math.floor((Math.random() * 10) + 1);
 
 const textToChange = document.querySelector(".inform");
 
@@ -60,7 +60,7 @@ document.querySelector('.submit').addEventListener('click', function () {
 
 document.querySelector('.refresh').addEventListener('click',function(){
     score = 10;
-    x = Math.floor((Math.random() * 20) + 1);
+    x = Math.floor((Math.random() * 10) + 1);
     document.querySelector(".inform").textContent = `🧑‍💻Guess the number`;
     document.querySelector(".score").textContent = score;
     document.querySelector("body").style.background = " linear-gradient(to right, rgb(0,0,0), rgb(239, 1, 1)";
